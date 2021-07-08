@@ -29,13 +29,4 @@ export default {
   margin-top: 60px;
 }
 
-div{
-  margin-top: 50px;
-}
-
-.EjercicioDos input{
- background: rgb(61, 198, 223); 
- color: rgb(219, 37, 128);
-}
-
 </style>

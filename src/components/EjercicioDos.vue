@@ -1,7 +1,7 @@
 <template>
   <div class="EjercicioDos">
-    <input type="text" v-model.number="numeroUno" />
-    <input type="text" v-model.number="numeroDos" />
+    <input class="EjercicioDos__input" type="text" v-model.number="numeroUno" />
+    <input class="EjercicioDos__input" type="text" v-model.number="numeroDos" />
     <h4>Total: {{ sumarNumeros }}</h4>
   </div>
 </template>
@@ -22,3 +22,15 @@ export default {
   },
 };
 </script>
+
+<style>
+.EjercicioDos{
+  margin-top: 50px;
+}
+
+.EjercicioDos__input{
+ background: rgb(61, 198, 223); 
+ color: rgb(219, 37, 128);
+}
+
+</style>
