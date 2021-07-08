@@ -2,15 +2,18 @@
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
     <EjercicioUno/>
+    <EjercicioDos/>
   </div>
 </template>
 
 <script>
 import EjercicioUno from  './components/EjercicioUno.vue';
+import EjercicioDos from  './components/EjercicioDos.vue';
 
 export default {
   components: {
-    EjercicioUno
+    EjercicioUno,
+    EjercicioDos
   }
 }
 
@@ -25,4 +28,5 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
+
 </style>
