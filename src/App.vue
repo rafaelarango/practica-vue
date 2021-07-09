@@ -3,17 +3,20 @@
     <img alt="Vue logo" src="./assets/logo.png">
     <EjercicioUno/>
     <EjercicioDos/>
+    <EjercicioCuatro/>
   </div>
 </template>
 
 <script>
 import EjercicioUno from  './components/EjercicioUno.vue';
 import EjercicioDos from  './components/EjercicioDos.vue';
+import EjercicioCuatro from './components/EjercicioCuatro.vue';
 
 export default {
   components: {
     EjercicioUno,
-    EjercicioDos
+    EjercicioDos,
+    EjercicioCuatro
   }
 }
 
