@@ -1,19 +1,22 @@
 <template>
-  <div id="app">
+  <div id="app" class="container">
     <img alt="Vue logo" src="./assets/logo.png">
     <EjercicioUno/>
     <EjercicioDos/>
+    <EjercicioTres/>
   </div>
 </template>
 
 <script>
 import EjercicioUno from  './components/EjercicioUno.vue';
 import EjercicioDos from  './components/EjercicioDos.vue';
+import EjercicioTres from './components/EjercicioTres.vue';
 
 export default {
   components: {
     EjercicioUno,
-    EjercicioDos
+    EjercicioDos,
+    EjercicioTres
   }
 }
 
