@@ -4,6 +4,7 @@
     <EjercicioUno/>
     <EjercicioDos/>
     <EjercicioTres/>
+    <EjercicioCuatro/>
   </div>
 </template>
 
@@ -11,12 +12,14 @@
 import EjercicioUno from  './components/EjercicioUno.vue';
 import EjercicioDos from  './components/EjercicioDos.vue';
 import EjercicioTres from './components/EjercicioTres.vue';
+import EjercicioCuatro from './components/EjercicioCuatro.vue';
 
 export default {
   components: {
     EjercicioUno,
     EjercicioDos,
-    EjercicioTres
+    EjercicioTres,
+    EjercicioCuatro
   }
 }
 
